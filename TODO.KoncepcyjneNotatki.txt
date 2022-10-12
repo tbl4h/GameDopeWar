@@ -1,0 +1,23 @@
+1)Mechanika rozgrywki. Handle narkotykami w Nowym Jorku.
+    Akcja gry toczyć się będzię podczas upłynniania, w drodze po
+    zaopatrzenie jak i podczas losowych zdarzeń. Główna część gry,
+    wszystkie zdarzenia będą wybierane podczas dnia, lub nocy pracy
+    głównego bohatera. Akcaj rozgrywać będzie się na przestrzeni lat 90.
+
+2)Zaimplementować Rozbudowany system walki:
+    Walka na gęsto lub słabo zaludnionych ulicach:
+        Cywile uciekają, lub kucają/leżą na ziemi co naraża ich na 
+        potencjalny postrzał co z kolei niesie zainteresowanie 
+        policji w danym regionie.
+    Możliwość ucieczki z areny walki w przypadku walki,
+    po zauważeniu policji podczas "codziennej pracy" lub wtopienie 
+    się w tłum:
+        Wieloetapowa sekwencja pościgu przez agresorów/policję.
+    Możliwa walka za osłonami zależnie od miejsca w którym przebywa 
+    gracz.Każde miejsce charakteryzuje się konkretynymi 
+    modyfikatorami. Potencjalne miejsca to:
+    Główna ulica, ulica boczna - budynki mieszkalne, zaułek - ślepa ulica,
+    park, dziedziniec blokowiska.
+
+3) Mapa podzielona na sektory, każda dzielnica posiada kilka lokacji jak 
+wyżej. 

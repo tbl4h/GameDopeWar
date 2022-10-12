@@ -1,0 +1,25 @@
+Except that any class member declared mutable can be modified,
+any attempt to modify a const object during its lifetime results
+in undefined behavior.
+
+This is the bare implementation of std::array:
+template<typename T, std::size_t N>
+struct array {
+    T __array_impl[N];
+};
+It's an aggregate struct whose only data member is a traditional
+array, such that the inner {} is used to initialize the inner array.
+Brace elision is allowed in certain cases with aggregate initialization
+(but usually not recommended) and so only one brace can be used in this case. 
+
+Every type_info object you need is already compiled into your program,
+and typeid() doesn't make a new one, it returns a const reference to
+the existing one.
+
+https://www.scs.stanford.edu/~dm/blog/param-pack.html
+https://en.cppreference.com/w/cpp/language/fold
+
+Dokładnie sprawdzać przekazywane wartości tam gdzie nie można ich przetestować.
+Są to struktury i klasy enum.
+DOKŁADNIE SPRAWDZAĆ WARTOŚCI BRZEGOWE.
+

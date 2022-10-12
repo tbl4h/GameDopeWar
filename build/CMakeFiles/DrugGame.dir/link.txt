@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -Werror -Wextra -pedantic -std=c++20 -g CMakeFiles/DrugGame.dir/main.cpp.o -o DrugGame  -Wl,-rpath,/home/mic/Projekty/DrugsWarsGame/build libgame_sources.so libgame_engine_sources.so 

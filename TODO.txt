@@ -1,0 +1,29 @@
+Nowa lista według książki: wzorce projektowe w grach.
+-1)Napsiać klasy dla typów semantycznych np Money. 117str OŁWU.
+1)Logger jako  klasa z interfejsem logowania wykorzystująca wstrzykiwanie zależności i inteligentne wskaźniki.
+2)Zamodelować dane gry w oparciu o wzorce:
+    Obiekt typu,
+    Pętla gry,
+    Komponent,
+    Lokalizacja danych,
+3)Rozważyć implementacje kluczowych dla rozgrywki o iektów w czystych
+plikach tekstowych, szybsza kompilacja.
+4)Rozważyć usunięcie klas wyliczeniowych w klasie Drug - zależność kodu
+zewnętrznego od kodu należącego do klasy Drug. Rozdział 3 punkt Ukrywanie
+informacji książki OŁWU.
+
+1) Napisać getery i setery dla wartości klasy location.
+2) Napisać metodę pobierającą konkretny narkotyk z listy.
+3) Napisać testy dla klasy Location
+3) Dodać metodę construct drug do klasy drug picker.
+4) Wyodrębnić generator liczb losowych do innej klasy.
+
+Na póżniej:
+5) Zaplanować klasę Map
+6) Zaplanować klasę Player
+7) Zaplanować klasę Event
+    Możliwe Eventy:
+    KeyboardEvent
+
+8) Zaplanować Event Handler
+9) Zaimplementować konkretne mosty pomiędzy klasami.
