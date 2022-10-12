@@ -1,0 +1,2 @@
+Implementacja Command - wzorca projektowego - w kontekście Entity Component
+jest taka, że każde nowe polecenie jest dodawane do listy poleceń.
